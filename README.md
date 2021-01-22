@@ -1,5 +1,24 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Introduction
+
+This is a web application implemented using next sssr which renderes blogs using contentstack cms.
+
+- The data of all the component is fetched from cms backend.
+- In Home page blogs are rendered and by clicking on it displays the information about particular blog.
+
+# Ruuning 
+
+- git clone 
+
+- to install dependencies - npm i
+
+- to run - npm run dev 
+
+# Demo Link
+
+https://cms-integration.vercel.app/
+
 ## Getting Started
 
 First, run the development server:
