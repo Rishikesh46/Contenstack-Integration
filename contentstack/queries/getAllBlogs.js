@@ -9,7 +9,6 @@ export default function getAllBlogs(contentType) {
         return result;
       },
       function error(err) {
-        
         console.log(err);
         return err;
       }
