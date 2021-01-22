@@ -1,0 +1,95 @@
+.home {
+  border: 3px white solid;
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/09669e70779257.5bae7ffcd469f.gif");
+}
+.index-heading {
+  color: white;
+  text-align: center;
+}
+
+.index-image {
+  margin-left: 9vw;
+  padding-top: 2vh;
+}
+.index-border {
+  border: 3px white solid;
+  margin-left: 30vw;
+  margin-bottom: 3vh;
+  margin-right: 30vw;
+  margin-top: 2vh;
+  background-size: cover;
+  background-image: url("https://images.pexels.com/photos/3991976/pexels-photo-3991976.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+.header-section {
+  display: flex;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+.nav-link {
+  color: white;
+  display: inline;
+  padding: 10px;
+}
+.navigation {
+  margin-left: 80vw;
+}
+.footer-back {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+  background-color: black;
+  color: #fff;
+}
+.last-con {
+  color: white;
+  font-size: 20px;
+  padding-top: 30px;
+  margin-left: 18vw;
+}
+.icon {
+  margin-left: 45vw;
+}
+.break {
+  color: white;
+}
+
+@media (max-width: 1200px) {
+  .navigation {
+    margin-left: 80vw;
+  }
+  .index-image {
+    height: 25vh;
+    width: 25vw;
+  }
+}
+
+@media (max-width: 760px) {
+  .navigation {
+    margin-left: 70vw;
+  }
+  .box {
+    width: 250px;
+  }
+  .last-con {
+    margin-left: 7vw;
+  }
+}
+@media (max-width: 600px) {
+  .navigation {
+    margin-left: 50vw;
+  }
+  .index-heading {
+    font-size: 15px;
+  }
+}
+@media (max-width: 450px) {
+  .index-image {
+    margin-left: 7vw;
+  }
+}
+@media (max-width: 300px) {
+  .navigation {
+    margin-left: 30vw;
+  }
+}
