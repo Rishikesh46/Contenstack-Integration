@@ -1,0 +1,45 @@
+#details {
+  width: 100%;
+  text-align: center;
+  background: gray;
+  justify-content: space-between;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: 0;
+}
+
+#details p {
+  display: inline;
+  font-size: 18px;
+  color: white;
+}
+
+ul.icons {
+  list-style: none;
+}
+
+ul.icons li {
+  display: inline;
+  font-size: 1em;
+  padding: 10px;
+}
+
+ul.icons li span {
+  margin: 20px;
+}
+
+ul.icons li a {
+  color: white;
+}
+
+ul.icons li a:before {
+  display: inline;
+  line-height: 40px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
